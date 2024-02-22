@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Random number generator</title>
+
+    <style>
+            div{
+        text-align: center;
+        padding: 80px;
+        font-size: 50px;
+    }
+
+    #btn{
+        font-size: 40px;
+        border-radius: 5px;
+    }
+    #btn:hover{
+        background-color: rgb(143, 255, 128);
+        font-size: 42px;
+    }
+
+    </style>
+</head>
+<body>
+   
+    <div>
+        <button id="btn"> Generate </button>
+        <h3 id="mh"></h3>
+    <div>
+
+
+    <script> 
+    
+        const gen = document.getElementById("btn");
+
+        gen.onclick = function() {
+            let n=Math.floor(Math.random());
+            document.getElementById("mh").textContent=n;
+        }
+
+    </script>
+
+</body>
+</html>

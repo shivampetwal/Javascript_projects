@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+
+<style> 
+        
+        #mylabel {
+        display: block;
+        text-align: center;
+        font-size: 80px;
+        margin-top: 20px; /* Adjust the top margin as needed */
+        padding-top: 150px;
+    }
+
+    #d {
+        text-align: center;
+        padding-top: 30px; /* Adjust the top padding as needed */
+    }
+
+    button {
+        font-size: 40px;
+        border-radius: 5px;
+        transition-duration: 100ms;
+    }
+
+    button:hover {
+        font-weight: bold;
+    }
+
+
+    #inc {
+        background-color: rgb(164, 255, 148);
+    }
+
+    #dec {
+        background-color: rgb(255, 146, 146);
+    }
+
+    #res {
+        background-color: rgb(170, 170, 255);
+    }
+</style>
+
+
+
+</head>
+<body>
+    <label id="mylabel">0</label>
+    <div id="d">
+        <button id="inc">increase</button>
+        <button id="res">reset</button>
+        <button id="dec">decrease</button>
+    </div>
+
+<script >
+
+const increaseBtn = document.getElementById("inc");
+const decreaseBtn = document.getElementById("dec");
+const resetBtn = document.getElementById("res");
+const countLabel = document.getElementById("mylabel");
+let count = 0;
+
+increaseBtn.onclick = function(){
+    count++;
+    countLabel.textContent = count;
+}
+decreaseBtn.onclick = function(){
+    count--;
+    countLabel.textContent = count;
+}
+resetBtn.onclick = function(){
+    count = 0;
+    countLabel.textContent = count;
+}
+
+</script>
+
+
+</body>
+</html>
