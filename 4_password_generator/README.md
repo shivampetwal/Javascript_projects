@@ -1,3 +1,1 @@
-#DEMO
-
-<img src ="./counter_demo.gif">
+<img src ="./password_generator_DEMO.gif" height="50%" width="50%">

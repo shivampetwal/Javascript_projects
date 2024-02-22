@@ -1,3 +1,1 @@
-#DEMO
-
-<img src ="./counter_demo.gif">
+<img src="./counter_DEMO.gif" 	height="30%"  width="30%"  />
