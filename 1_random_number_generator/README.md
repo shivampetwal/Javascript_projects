@@ -1,1 +1,1 @@
-<img src="./counter_DEMO.gif" 	height="30%"  width="30%"  />
+<img src="./counter_DEMO.gif" height="30%"  width="30%"  />
