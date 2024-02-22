@@ -1,1 +1,1 @@
-<img src="./number_guesser_DEMO.gif" height="30%" width="30%" />
+<img src="./number_guesser_DEMO.gif" height="50%" width="50%" />
