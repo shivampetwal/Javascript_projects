@@ -27,12 +27,15 @@ function generatePassword(length, includeLowercase, includeUppercase, includeNum
     return password;
 }
 
-const length = 12;
-const includeLowercase = true;
-const includeUppercase = true;
-const includeNumbers = true;
-const includeSymbols = true;
+const myButton = document.getElementById("btn");
+myButton.onclick = function () {
+    const length = document.getElementById("ip").value;
+  
+    const includeLowercase = true;
+    const includeUppercase = true;
+    const includeNumbers = true;
+    const includeSymbols = true;
 
-const password = generatePassword(length, includeLowercase, includeUppercase, includeNumbers, includeSymbols);
-
-console.log(`Password: ${password}`);
+    const password = generatePassword(length, includeLowercase, includeUppercase, includeNumbers, includeSymbols);
+    document.getElementById("mh").textContent = password;
+};

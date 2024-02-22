@@ -18,6 +18,9 @@
         background-color: rgb(143, 255, 128);
         font-size: 42px;
     }
+    #btn:active{
+        transform: translateY(5px);
+    }
 
     </style>
 </head>
@@ -34,7 +37,7 @@
         const gen = document.getElementById("btn");
 
         gen.onclick = function() {
-            let n=Math.floor(Math.random());
+            let n=Math.floor(Math.random()*100)+1;
             document.getElementById("mh").textContent=n;
         }
 
