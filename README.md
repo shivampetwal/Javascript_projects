@@ -4,5 +4,6 @@
 
 | Number Guesser | Column 2 | Column 3 | Column 4 |
 | --- | --- | --- | --- |
-| ![Number Guesser Demo](3_number_guesser/number_guesser_DEMO.gif) | ![mouse_events Demo](6_mouse_events/mouse_events_DEMO.gif) | Placeholder | Placeholder |
+| ![Number Guesser Demo](3_number_guesser/number_guesser_DEMO.gif) | ![mouse_events Demo](6_mouse_events/mouse_events_DEMO.gif) | 
+![key_events Demo](7_key_event/key_event_DEMO.gif)  | Placeholder |
 
