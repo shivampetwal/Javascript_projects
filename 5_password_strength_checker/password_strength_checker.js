@@ -29,7 +29,7 @@ function checkPasswordStrength() {
     lengthStrength = "[Strong] : very difficult to break 👌🤩👌";
   } 
   else if (password.length > 16 && password.length <= 50 && specialCharCount >= 3 && upperCaseCount >= 2) {
-    lengthStrength = "[very strong passward] : very very difficult to break 💪😈💪 ";
+    lengthStrength = "[very strong password] : very very difficult to break 💪😈💪 ";
   } 
   else if (password.length > 50 && specialCharCount >= 0 && upperCaseCount >= 0 ) {
     lengthStrength = "are bass kar bhai password hai ke kitaaab 📖💀😭 !!!!! ";
